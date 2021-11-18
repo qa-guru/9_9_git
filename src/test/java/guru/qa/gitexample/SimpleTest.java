@@ -6,6 +6,11 @@ import org.junit.jupiter.api.Test;
 public class SimpleTest {
 
     @Test
+    void secondTest() {
+        Assertions.assertTrue(false);
+    }
+
+    @Test
     void simpleTest() {
         Assertions.assertTrue(true);
     }
